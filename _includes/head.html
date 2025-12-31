@@ -11,4 +11,20 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister().then(function() {
+            console.log('Service Worker unregistered.');
+            // 解除に成功したらリロードして新しいサイトを表示（ループ防止のため初回のみ）
+            if (!sessionStorage.getItem('sw_cleared')) {
+               sessionStorage.setItem('sw_cleared', 'true');
+               window.location.reload();
+            }
+          });
+        }
+      });
+    }
+  </script>
 </head>
