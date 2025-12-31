@@ -175,7 +175,7 @@
   padding: $spacing-unit 0;
   flex: 1;
   img {
-    max-width: 80vw;
+    max-width: min(80vw, 500px);
   }
 }
 
@@ -226,7 +226,7 @@
   margin-bottom: $spacing-unit;
 
   img {
-    max-width: 80vw;
+    max-width: min(80vw, 500px);
   }
 
   h2 {
