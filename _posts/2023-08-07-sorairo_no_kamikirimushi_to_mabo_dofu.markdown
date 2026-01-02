@@ -2,7 +2,7 @@
 layout: post
 title:  "空色のカミキリムシと麻婆豆腐"
 date:   2023-08-08 00:00:00 +0900
-categories: よもやま話
+categories: articles
 ---
 
 ## 大学中退、そして石垣島へ
