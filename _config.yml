@@ -22,7 +22,7 @@ title: かれきむし
 email: fhir0aki3あっとgmail.com
 description: 沖縄在住の甲虫愛好家・藤川浩明のホームページ
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fujikawahiroaki.vercel.app"
 github_username:  fujikawahiroaki
 author: 藤川浩明（Fujikawa Hiroaki）
 
