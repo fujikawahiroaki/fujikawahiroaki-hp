@@ -22,9 +22,10 @@ title: かれきむし
 email: fhir0aki3あっとgmail.com
 description: 沖縄在住の甲虫愛好家・藤川浩明のホームページ
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fujikawahiroaki.vercel.app"
+url: https://fujikawahiroaki.vercel.app
 github_username:  fujikawahiroaki
 author: 藤川浩明（Fujikawa Hiroaki）
+google_site_verification: jEkcPgYaGWkjASRuBUe7eqvpj5sj8sLy9OWMDrvOH8A
 
 # Build settings
 theme: minima
