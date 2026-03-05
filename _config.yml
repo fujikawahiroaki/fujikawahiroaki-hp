@@ -30,6 +30,7 @@ author: 藤川浩明（Fujikawa Hiroaki）
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 pages_paths:
   - 1_papers.md
